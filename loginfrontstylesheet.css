@@ -1,0 +1,83 @@
+/*for preset*/
+html /*can also use * instead of html*/
+{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%
+    box-sizing: border-box; /*it will not let txt/border box go out of box*/
+}
+
+.login
+{
+    background-color: lightblue;
+    width:200px;
+    display: flex; /*flex indicates flexible, it will adjust according to the window screen,also it makes the content to appear vertically, that is one below the other */
+    flex-direction:row;
+    justify-content:center;/*its responsible for vertical alignment of content*/
+    align-items:center;/*its responsible for horizintal alignment of text*/
+    margin: 10rem 35rem auto;
+}
+
+.form-container
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.form
+{
+    display:flex;
+    flex-direction:column;/*default flex-directio is row*/
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.title
+{
+    color:rgb(214, 96, 0);
+    margin:0 auto;/*it will align the text in the middle*/
+    font-size:1.8rem;
+    text-decoration-line:underline;
+    margin-bottom:1rem;
+}
+
+.user-label,.password-label
+{
+    font-size:1.2rem;
+    color:brown;
+}
+
+.input
+{
+    width:80%;
+    font-size:1.4rem;
+    color:black;
+    outline:none;
+}
+
+.forget
+{
+    margin-top:1rem;
+    color:crimson;
+    text-decoration:none;
+}
+
+.button
+{
+    margin-top:1rem;
+    width:5rem;
+    color:brown;
+    background-color:white;
+    border-radius:5px;
+    align-self:auto;
+    font-size:1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button:hover
+{
+    background-color:brown;
+    color:white;
+}
