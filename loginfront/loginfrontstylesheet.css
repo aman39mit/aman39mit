@@ -12,7 +12,7 @@ html /*can also use * instead of html*/
     background-color: lightblue;
     width:200px;
     display: flex; /*flex indicates flexible, it will adjust according to the window screen,also it makes the content to appear vertically, that is one below the other */
-    flex-direction:row;
+    flex-direction:column;
     justify-content:center;/*its responsible for vertical alignment of content*/
     align-items:center;/*its responsible for horizintal alignment of text*/
     margin: 10rem 35rem auto;
